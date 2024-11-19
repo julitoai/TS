@@ -1,0 +1,24 @@
+:root {
+  --border-color: #f5d8a5;
+  --inner-bg: #e59e6b;
+  --bg-primary: #242424;
+  --lighter-bg: #ffffcb;
+}
+
+.h1-hangman {
+  display: flex;
+  color: var(--inner-bg);
+  border-color: var(--border-color);
+  justify-content: center;
+  letter-spacing: 2px;
+  text-shadow: 0.5px 0px 0px var(--border-color),
+    -0.5px 0px 0px var(--border-color), 0px 0.5px 0px var(--border-color),
+    0px -0.5px 0px var(--border-color);
+}
+.canvas {
+  display: flex;
+  height: 50vh;
+  justify-self: center;
+  background-color: var(--inner-bg);
+  border: 1px solid var(--border-color);
+}
