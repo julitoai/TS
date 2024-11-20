@@ -4,7 +4,7 @@ export default function Hangman() {
   return (
     <>
       <h1 className="h1-hangman">Hangman</h1>
-      <canvas className="canvas"></canvas>
+      <canvas id="myCanvas" width="200" height="100"></canvas>
     </>
   );
 }
